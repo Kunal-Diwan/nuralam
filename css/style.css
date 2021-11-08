@@ -5,7 +5,7 @@
   }
   #topbar{
     height: 100vh;
-    background: url('/images/bannerImg.png');
+    background-image: url('/images/bannerImg.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
