@@ -1,3 +1,12 @@
+::-webkit-scrollbar{
+    width: 20px;
+}
+::-webkit-scrollbar-track{
+    background: #dedede;
+}
+::-webkit-scrollbar-thumb{
+    background: #db1d5c;
+}
 .App{
     color: #dedede;
     font-family: 'Open Sans', sans-serif;
@@ -14,23 +23,23 @@
     align-items: center;
   }
 
-
 /* ======navbar section======= */
 .navbar{
     position: fixed;
     top: 0;
     height: 10%;
     width: 100%;
-    padding: 0px 100px;
+    padding: 0px 93px;
     display: flex;
     justify-content: space-between;
     z-index: 10;
 }
 .navbar-brand{
-    font-size: 40px;
+    font-size: 74px;
     font-family: chiller, 'sans-Serif';
     font-weight: 600;
     color: #fff;
+    padding-top: 28px;
 }
 .nav-item{
     padding: 0px 10px;
@@ -49,7 +58,7 @@
 /* ======banner section======= */
 #banner{
     height: 90%;
-    width: 100%;
+    width: 130%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -265,7 +274,7 @@
 .section-heading::before{
     content: '';
     height: 3px;
-    width: 70px;
+    width: 166px;
     background-color: #a47943;
     position: absolute;
     left: 0;
@@ -309,6 +318,9 @@
 }
 .width-65{
     width: 65%;
+}
+.width-70{
+    width: 70%;
 }
 
 .progress-bar::before{
